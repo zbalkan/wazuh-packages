@@ -1,0 +1,71 @@
+{
+    "data": [{
+            "name": "/usr/share//performance-analyzer-rca",
+            "description": {
+                "class": "static",
+                "group": "ossec",
+                "mode": "0640",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share//performance-analyzer-rca/lib",
+            "description": {
+                "class": "static",
+                "group": "ossec",
+                "mode": "0640",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share/performance-analyzer-rca/lib/performance-analyzer-rca-1.2.4.0.jar",
+            "description": {
+                "class": "static",
+                "group": "ossec",
+                "mode": "0640",
+                "prot": "-rwxr-x---",
+                "type": "file",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share/performance-analyzer-rca/lib/error_prone_annotations-2.3.4.jar",
+            "description": {
+                "class": "static",
+                "group": "ossec",
+                "mode": "0640",
+                "prot": "-rwxr-x---",
+                "type": "file",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share/performance-analyzer-rca/lib/sqlite-jdbc-3.32.3.2.jar",
+            "description": {
+                "class": "static",
+                "group": "ossec",
+                "mode": "0640",
+                "prot": "-rwxr-x---",
+                "type": "file",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share/performance-analyzer-rca/lib/grpc-stub-1.28.0.jar",
+            "description": {
+                "class": "static",
+                "group": "ossec",
+                "mode": "0640",
+                "prot": "-rwxr-x---",
+                "type": "file",
+                "user": "root"
+            }
+        }
+        
+        
+    ]
+}
