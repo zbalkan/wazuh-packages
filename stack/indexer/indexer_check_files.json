@@ -1,4 +1,14 @@
 {
+    "currentitems": [{
+            "name": "/etc/systemd/system/wazuh-indexer.service"
+        },
+        {
+            "name": "/usr/share/wazuh-indexer"
+        },
+        {
+            "name": "/etc/wazuh-indexer"
+        }
+    ],
     "data": [{
             "name": "/usr/share/wazuh-indexer",
             "description": {
@@ -12,19 +22,9 @@
         {
             "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.crypto.cryptoki",
             "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-        {
-            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.crypto.cryptoki",
-            "description": {
                 "group": "root",
                 "mode": "0755",
-                "prot": "drwxrwx---",
+                "prot": "drwxr-xr-x",
                 "type": "directory",
                 "user": "root"
             }
@@ -32,19 +32,9 @@
         {
             "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.crypto.ec",
             "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-        {
-            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.crypto.ec",
-            "description": {
                 "group": "root",
                 "mode": "0755",
-                "prot": "drwxrwx---",
+                "prot": "drwxr-xr-x",
                 "type": "directory",
                 "user": "root"
             }
@@ -52,19 +42,9 @@
         {
             "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.dynalink",
             "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-        {
-            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.dynalink",
-            "description": {
                 "group": "root",
                 "mode": "0755",
-                "prot": "drwxrwx---",
+                "prot": "drwxr-xr-x",
                 "type": "directory",
                 "user": "root"
             }
@@ -72,41 +52,11 @@
         {
             "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.le",
             "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-        {
-            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.le",
-            "description": {
                 "group": "root",
                 "mode": "0755",
-                "prot": "drwxrwx---",
+                "prot": "drwxr-xr-x",
                 "type": "directory",
                 "user": "root"
-            }
-        },
-        {
-            "name": "/usr/share/wazuh-indexer/lib/java-version-checker-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-        {
-            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.opt",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
             }
         },
         {
@@ -114,7 +64,7 @@
             "description": {
                 "group": "root",
                 "mode": "0755",
-                "prot": "drwxrwx---",
+                "prot": "drwxr-xr-x",
                 "type": "directory",
                 "user": "root"
             }
@@ -122,19 +72,9 @@
         {
             "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.javadoc",
             "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-        {
-            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.javadoc",
-            "description": {
                 "group": "root",
                 "mode": "0755",
-                "prot": "drwxrwx---",
+                "prot": "drwxr-xr-x",
                 "type": "directory",
                 "user": "root"
             }
@@ -142,1151 +82,11 @@
         {
             "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.localedata",
             "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-        {
-            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.localedata",
-            "description": {
                 "group": "root",
                 "mode": "0755",
-                "prot": "drwxrwx---",
+                "prot": "drwxr-xr-x",
                 "type": "directory",
                 "user": "root"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/log4j-api-2.17.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/log4j-core-2.17.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/opensearch-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/opensearch-cli-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/opensearch-core-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/opensearch-geo-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/opensearch-launchers-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/opensearch-plugin-classloader-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/opensearch-secure-sm-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/opensearch-x-content-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/tools/keystore-cli/keystore-cli-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/tools/plugin-cli/bc-fips-1.0.2.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/tools/plugin-cli/bcpg-fips-1.0.4.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/tools/plugin-cli/opensearch-plugin-cli-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/lib/tools/upgrade-cli/opensearch-upgrade-cli-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/aggs-matrix-stats/aggs-matrix-stats-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/analysis-common/analysis-common-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/geo/geo-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/ingest-common/ingest-common-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/ingest-common/opensearch-dissect-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/ingest-common/opensearch-grok-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/ingest-geoip/ingest-geoip-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/ingest-user-agent/ingest-user-agent-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/lang-expression/lang-expression-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/lang-mustache/lang-mustache-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/lang-painless/lang-painless-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/lang-painless/opensearch-scripting-painless-spi-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/mapper-extras/mapper-extras-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/opensearch-dashboards/opensearch-dashboards-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/opensearch-dashboards/opensearch-rest-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/opensearch-dashboards/opensearch-ssl-config-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/opensearch-dashboards/reindex-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/parent-join/parent-join-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/percolator/percolator-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/rank-eval/rank-eval-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/reindex/opensearch-rest-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/reindex/opensearch-ssl-config-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/reindex/reindex-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/repository-url/repository-url-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/systemd/systemd-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-buffer-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-codec-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-codec-http-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-common-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-handler-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-resolver-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-transport-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/modules/transport-netty4/transport-netty4-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/performance-analyzer-rca/lib/log4j-api-2.17.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/performance-analyzer-rca/lib/log4j-core-2.17.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/performance-analyzer-rca/lib/performance-analyzer-rca-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/alerting-core-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/alerting-notification-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/common-utils-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/commons-lang3-3.11.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/cron-utils-9.1.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/opensearch-alerting-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/opensearch-rest-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-anomaly-detection/common-utils-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-anomaly-detection/gson-2.8.6.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-anomaly-detection/opensearch-anomaly-detection-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-anomaly-detection/opensearch-rest-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-asynchronous-search/common-utils-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-asynchronous-search/opensearch-asynchronous-search-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-cross-cluster-replication/common-utils-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-cross-cluster-replication/opensearch-cross-cluster-replication-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-index-management/common-utils-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-index-management/notification-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-index-management/opensearch-index-management-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-job-scheduler/opensearch-job-scheduler-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-job-scheduler/opensearch-job-scheduler-spi-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-knn/opensearch-knn-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-observability/common-utils-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-observability/opensearch-observability-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-performance-analyzer/opensearch-performance-analyzer-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-performance-analyzer/performanceanalyzer-rca-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-reports-scheduler/common-utils-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-reports-scheduler/opensearch-reports-scheduler-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/aggs-matrix-stats-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/cxf-core-3.4.4.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/cxf-rt-rs-json-basic-3.4.4.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/cxf-rt-rs-security-jose-3.4.4.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/cxf-rt-security-3.4.4.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/jboss-rmi-api_1.0_spec-1.0.6.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/lang-mustache-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/log4j-slf4j-impl-2.17.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/mapper-extras-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-buffer-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-codec-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-codec-http-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-common-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-handler-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-resolver-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-transport-4.1.69.Final.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/opensearch-rest-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/opensearch-rest-high-level-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/opensearch-security-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/parent-join-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/rank-eval-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-security/transport-netty4-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/common-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/core-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/gson-2.8.6.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/legacy-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/opensearch-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/opensearch-rest-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/opensearch-sql-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/opensearch-ssl-config-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/parent-join-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/ppl-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/protocol-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/reindex-client-1.2.3.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
-            }
-        },
-		{
-            "name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/sql-1.2.3.0.jar",
-            "description": {
-                "group": "wazuh-indexer",
-                "mode": "0640",
-                "prot": "-rw-r-----",
-                "type": "file",
-                "user": "wazuh-indexer"
             }
         },
         {
@@ -9078,6 +7878,1206 @@
                 "user": "wazuh-indexer"
             }
         
+        },
+        {
+			"name": "/etc/wazuh-indexer/.opensearch.keystore.initial_md5sum",
+			"description": {
+				"group": "root",
+				"mode": "0644",
+				"prot": "-rw-r--r--",
+				"type": "file",
+				"user": "root"
+            }
+        },
+        {
+			"name": "/etc/wazuh-indexer/opensearch.keystore",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0660",
+				"prot": "-rw-rw----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/.cache",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0755",
+				"prot": "drwxr-xr-x",
+				"type": "directory",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/.cache/JNA",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0755",
+				"prot": "drwxr-xr-x",
+				"type": "directory",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/.cache/JNA/temp",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0755",
+				"prot": "drwxr-xr-x",
+				"type": "directory",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/bin/indexerSecurityInitializer.sh",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0750",
+				"prot": "-rwxr-x---",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/java-version-checker-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/log4j-api-2.17.1.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/log4j-core-2.17.1.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/opensearch-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/opensearch-cli-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/opensearch-core-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/opensearch-geo-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/opensearch-launchers-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/opensearch-plugin-classloader-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/opensearch-secure-sm-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/opensearch-x-content-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/tools/keystore-cli/keystore-cli-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/tools/plugin-cli/bc-fips-1.0.2.1.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/tools/plugin-cli/bcpg-fips-1.0.5.1.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/tools/plugin-cli/opensearch-plugin-cli-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/lib/tools/upgrade-cli/opensearch-upgrade-cli-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/aggs-matrix-stats/aggs-matrix-stats-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/analysis-common/analysis-common-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/geo/geo-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/ingest-common/ingest-common-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/ingest-common/opensearch-dissect-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/ingest-common/opensearch-grok-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/ingest-geoip/ingest-geoip-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/ingest-user-agent/ingest-user-agent-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/lang-expression/lang-expression-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/lang-mustache/lang-mustache-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/lang-painless/lang-painless-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/lang-painless/opensearch-scripting-painless-spi-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/mapper-extras/mapper-extras-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/opensearch-dashboards/opensearch-dashboards-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/opensearch-dashboards/opensearch-rest-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/opensearch-dashboards/opensearch-ssl-config-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/opensearch-dashboards/reindex-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/parent-join/parent-join-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/percolator/percolator-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/rank-eval/rank-eval-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/reindex/opensearch-rest-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/reindex/opensearch-ssl-config-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/reindex/reindex-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/repository-url/repository-url-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/systemd/systemd-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-buffer-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-codec-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-codec-http-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-common-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-handler-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-resolver-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/transport-netty4/netty-transport-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/modules/transport-netty4/transport-netty4-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/performance-analyzer-rca/lib/log4j-api-2.17.1.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/performance-analyzer-rca/lib/log4j-core-2.17.1.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/performance-analyzer-rca/lib/performance-analyzer-rca-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/alerting-core-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/alerting-notification-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/common-utils-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/cron-utils-9.1.6.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/javassist-3.27.0-GA.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/opensearch-alerting-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-alerting/opensearch-rest-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-anomaly-detection/common-utils-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-anomaly-detection/commons-lang3-3.12.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-anomaly-detection/gson-2.8.9.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-anomaly-detection/opensearch-anomaly-detection-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-anomaly-detection/opensearch-rest-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-asynchronous-search/common-utils-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-asynchronous-search/opensearch-asynchronous-search-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-cross-cluster-replication/common-utils-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-cross-cluster-replication/opensearch-cross-cluster-replication-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-index-management/common-utils-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-index-management/notification-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-index-management/opensearch-index-management-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-job-scheduler/opensearch-job-scheduler-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-job-scheduler/opensearch-job-scheduler-spi-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-knn/opensearch-knn-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-observability/common-utils-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-observability/opensearch-observability-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-performance-analyzer/opensearch-performance-analyzer-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-performance-analyzer/performanceanalyzer-rca-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-reports-scheduler/common-utils-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-reports-scheduler/opensearch-reports-scheduler-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/aggs-matrix-stats-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/cxf-core-3.4.5.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/cxf-rt-rs-json-basic-3.4.5.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/cxf-rt-rs-security-jose-3.4.5.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/cxf-rt-security-3.4.5.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/lang-mustache-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/log4j-slf4j-impl-2.17.1.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/mapper-extras-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-buffer-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-codec-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-codec-http-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-common-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-handler-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-resolver-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/netty-transport-4.1.72.Final.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/opensearch-rest-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/opensearch-rest-high-level-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/opensearch-security-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/parent-join-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/rank-eval-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-security/transport-netty4-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/common-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/core-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/gson-2.8.9.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/legacy-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/opensearch-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/opensearch-rest-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/opensearch-sql-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/opensearch-ssl-config-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/parent-join-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/ppl-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/protocol-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/reindex-client-1.2.4.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
+        },
+        {
+			"name": "/usr/share/wazuh-indexer/plugins/opensearch-sql/sql-1.2.4.0.jar",
+			"description": {
+				"group": "wazuh-indexer",
+				"mode": "0640",
+				"prot": "-rw-r-----",
+				"type": "file",
+				"user": "wazuh-indexer"
+            }
         }
     ]
 }
