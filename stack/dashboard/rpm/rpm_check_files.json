@@ -1,0 +1,17 @@
+{
+    "currentitems": [{
+            "name": "/etc/init.d/wazuh-dashboard"
+        }
+    ],
+    "data": [{
+            "name": "/etc/init.d/wazuh-dashboard",
+			"description": {
+                "group": "wazuh-dashboard",
+                "mode": "0750",
+                "prot": "-rwxr-x---.",
+                "type": "file",
+                "user": "wazuh-dashboard"
+            }
+		}
+    ]
+}

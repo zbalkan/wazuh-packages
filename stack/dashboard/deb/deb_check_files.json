@@ -1,0 +1,17 @@
+{
+    "currentitems": [{
+            "name": "/etc/systemd/system/wazuh-dashboard"
+        }
+    ],
+    "data": [{
+            "name": "/etc/systemd/system/wazuh-dashboard",
+			"description": {
+                "group": "wazuh-dashboard",
+                "mode": "0750",
+                "prot": "-rwxr-x---.",
+                "type": "file",
+                "user": "wazuh-dashboard"
+            }
+		}
+    ]
+}
