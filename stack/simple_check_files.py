@@ -39,18 +39,19 @@ _filemode_table = (
      (stat.S_IXOTH, "x"))
 )
 
-def read_simple_check_file(file_to_check):
+def read_simple_check_file(files_to_check):
     expected_items = {}
     output_dict = {}
 
-    json_data_list = read_json_file(file_to_check)['data']
+    for file in files_to_check:
+        json_data_list = read_json_file(file)['data']
 
-    for data_item in json_data_list:
-        output_dict[data_item['name']] = data_item['description']
+        for data_item in json_data_list:
+            output_dict[data_item['name']] = data_item['description']
 
-    for item in output_dict:
-        new_item = dict(output_dict[item])
-        expected_items[item] = new_item
+        for item in output_dict:
+            new_item = dict(output_dict[item])
+            expected_items[item] = new_item
 
     return expected_items
 
@@ -167,13 +168,14 @@ def get_current_items(directories_to_check):
 
 """
 
-def get_current_data(file_to_check):
+def get_current_data(files_to_check):
     output = []
 
-    json_data_list = read_json_file(file_to_check)['currentitems']
+    for file_to_check in files_to_check:
+        json_data_list = read_json_file(file_to_check)['currentitems']
 
-    for data_item in json_data_list:
-        output.append(data_item['name'])
+        for data_item in json_data_list:
+            output.append(data_item['name'])
 
     return output
 
@@ -210,7 +212,7 @@ def filemode(mode):
 if __name__ == "__main__":
 
     arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument("-t", "--template", type=str, default="simple_check_file.json", help="File template check")
+    arg_parser.add_argument("-t", "--template", type=str, help="File template check or list of template, comma-separated")
     #arg_parser.add_argument("-t", "--template", type=str, help="List of template files to check, comma-separated")
     args = arg_parser.parse_args()
 
@@ -218,24 +220,27 @@ if __name__ == "__main__":
         print(str(args))
         print("Checking files...")
 
-        #directories_to_check = args.directory.split(',')
-        file_to_check = args.template
+        temp = args.template
         different_names = []
+        files_to_check = []
 
-        #if "," in file_to_check:
-        #    file_to_check = args.template.split(',')
+        if "," in temp:
+            files_to_check = temp.split(',')
+        else:
+            files_to_check.append(temp)
 
-        if not os.path.isfile(file_to_check):
-            raise Exception(file_to_check + " not found")
+        for file in files_to_check:
+            if not os.path.isfile(file):
+                raise Exception(file + " not found")
         
         #Get current data to compare
-        directories_to_check = get_current_data(file_to_check)
+        directories_to_check = get_current_data(files_to_check)
 
         print("Checking directories and files:")
         print(directories_to_check)
 
         #Get data to compare
-        expected_items = read_simple_check_file(file_to_check)
+        expected_items = read_simple_check_file(files_to_check)
         current_items = get_current_items(directories_to_check)
 
         #Get key name to compare
