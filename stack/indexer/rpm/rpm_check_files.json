@@ -1,0 +1,35 @@
+{
+    "currentitems": [
+    ],
+    "data": [{
+            "name": "/usr/share/wazuh-indexer/.cache",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0755",
+                "prot": "drwxr-xr-x",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/.cache/JNA",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0755",
+                "prot": "drwxr-xr-x",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/.cache/JNA/temp",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0755",
+                "prot": "drwxr-xr-x",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        }
+    ]
+}
