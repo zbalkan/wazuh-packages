@@ -30,6 +30,76 @@
                 "type": "directory",
                 "user": "wazuh-indexer"
             }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.crypto.cryptoki",
+            "description": {
+                "group": "root",
+                "mode": "0755",
+                "prot": "drwxr-xr-x",
+                "type": "directory",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.crypto.ec",
+            "description": {
+                "group": "root",
+                "mode": "0755",
+                "prot": "drwxr-xr-x",
+                "type": "directory",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.dynalink",
+            "description": {
+                "group": "root",
+                "mode": "0755",
+                "prot": "drwxr-xr-x",
+                "type": "directory",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.le",
+            "description": {
+                "group": "root",
+                "mode": "0755",
+                "prot": "drwxr-xr-x",
+                "type": "directory",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.opt",
+            "description": {
+                "group": "root",
+                "mode": "0755",
+                "prot": "drwxr-xr-x",
+                "type": "directory",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.javadoc",
+            "description": {
+                "group": "root",
+                "mode": "0755",
+                "prot": "drwxr-xr-x",
+                "type": "directory",
+                "user": "root"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.localedata",
+            "description": {
+                "group": "root",
+                "mode": "0755",
+                "prot": "drwxr-xr-x",
+                "type": "directory",
+                "user": "root"
+            }
         }
     ]
 }

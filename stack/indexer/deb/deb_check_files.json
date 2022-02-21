@@ -1,6 +1,495 @@
 {
     "currentitems": [
     ],
-    "data": [
+    "data": [{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.crypto.cryptoki",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.crypto.ec",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.dynalink",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.le",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.opt",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.javadoc",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.localedata",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+        {
+            "name": "/usr/share/wazuh-indexer/jdk/legal/java.se",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/java.security.jgss",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.accessibility",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.aot",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.attach",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.charsets",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.compiler",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.editpad",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.hotspot.agent",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.httpserver",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.incubator.foreign",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.incubator.jpackage",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.ed",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.jvmstat",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.vm.ci",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.vm.compiler",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.internal.vm.compiler.management",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jartool",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jcmd",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jconsole",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jdeps",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jdi",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jdwp.agent",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jfr",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jlink",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jshell",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jsobject",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.jstatd",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.management",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.management.agent",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.management.jfr",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.naming.dns",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.naming.rmi",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.net",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.nio.mapmode",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.sctp",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.security.auth",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.security.jgss",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.unsupported",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.unsupported.desktop",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.xml.dom",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        },
+		{
+            "name": "/usr/share/wazuh-indexer/jdk/legal/jdk.zipfs",
+            "description": {
+                "group": "wazuh-indexer",
+                "mode": "0750",
+                "prot": "drwxr-x---",
+                "type": "directory",
+                "user": "wazuh-indexer"
+            }
+        }
     ]
 }
