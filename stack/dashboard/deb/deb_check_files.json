@@ -8,7 +8,7 @@
 			"description": {
                 "group": "wazuh-dashboard",
                 "mode": "0750",
-                "prot": "-rwxr-x---.",
+                "prot": "-rwxr-x---",
                 "type": "file",
                 "user": "wazuh-dashboard"
             }
