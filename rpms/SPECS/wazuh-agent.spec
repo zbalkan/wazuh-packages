@@ -233,7 +233,7 @@ if [ $1 = 1 ]; then
   if [ ! -z "$sles" ]; then
     if [ -d /etc/init.d ]; then
       install -m 755 %{_localstatedir}/packages_files/agent_installation_scripts/src/init/ossec-hids-suse.init /etc/init.d/wazuh-agent
-    fi  
+    fi
   fi
 
   touch %{_localstatedir}/logs/active-responses.log
@@ -537,6 +537,8 @@ rm -fr %{buildroot}
 %attr(750, root, wazuh) %{_localstatedir}/lib/libsyscollector.so
 %attr(750, root, wazuh) %{_localstatedir}/lib/libsysinfo.so
 %attr(750, root, wazuh) %{_localstatedir}/lib/libfimdb.so
+%attr(750, root, wazuh) %{_localstatedir}/lib/libstdc++.so.6
+%attr(750, root, wazuh) %{_localstatedir}/lib/libgcc_s.so.1
 %dir %attr(750, wazuh, wazuh) %config(missingok) %{_localstatedir}/tmp/sca-%{version}-%{release}-tmp
 %dir %attr(750, wazuh, wazuh) %config(missingok) %{_localstatedir}/tmp/sca-%{version}-%{release}-tmp/generic
 %attr(640, root, wazuh) %config(missingok) %{_localstatedir}/tmp/sca-%{version}-%{release}-tmp/generic/*
